@@ -1,0 +1,8 @@
+numpy
+matplotlib
+andi-datasets
+pandas
+ipykernel
+torch 
+torchvision 
+torchaudio
