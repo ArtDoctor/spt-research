@@ -1,0 +1,1 @@
+# This is a repository for LSTM training for local Czech SPT data
