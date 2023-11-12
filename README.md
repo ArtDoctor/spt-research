@@ -1,4 +1,4 @@
-# This is a repository for LSTM training for SPT data
+# Training LSTM for SPT data
 
 ### Folder structure
 ```generate_trajectory.py``` - generate synthetic SPT dataset using andi-datasets package; mostly taked from the HNU team repo, from ANDI competition.  
