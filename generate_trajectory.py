@@ -1,4 +1,4 @@
-import andi
+from andi_datasets import datasets_challenge
 import numpy as np
 import pandas as pd
 import argparse
@@ -26,8 +26,7 @@ make_dir(pp_data_path)
 filename = data_path+'data-1d-{}.csv'.format(l)
 output = pp_data_path+'data-1d-{}-pp.csv'.format(l)
 
-AD = andi.andi_datasets()
-X1, Y1, X2, Y2, X3, Y3 = AD.andi_dataset(N=N, max_T=l+1, min_T=l, tasks=1, dimensions=1)
+X1, Y1, X2, Y2, X3, Y3 = datasets_challenge.challenge_theory_dataset(N=N, max_T=l+1, min_T=l, tasks=1, dimensions=2)
 
 with open(filename, 'w') as f:
     f.write('pos;label\n')

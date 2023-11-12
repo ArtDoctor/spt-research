@@ -6,3 +6,9 @@ ipykernel
 torch 
 torchvision 
 torchaudio
+mlflow
+keras-tuner
+pydot
+tensorrt
+deeptrack
+cupy-cuda12x
